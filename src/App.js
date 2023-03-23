@@ -1,11 +1,31 @@
 import logo from './logo.svg';
 import './App.css';
 
+import { Container } from "@mui/material";
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <Container
+          maxWidth="sm"
+          style={{
+            width: "100%",
+            height: "100vh",
+            paddingLeft: "0px",
+            paddingRight: "0px",
+          }}
+        >
+          <div>
+            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+          </div>
+        </Container>
+        {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -16,7 +36,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
       </header>
     </div>
   );
