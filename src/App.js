@@ -73,9 +73,9 @@ function App() {
             <div style={{ fontSize: '12px', marginLeft: '8px' }}>bleeder: Sensi Seeds</div>
             <div style={{ fontSize: '12px', marginLeft: '8px' }}>family: 10% sativa / 90% indica</div>
             <div></div>
-            <div style={{ fontSize: '12px', marginLeft: '6px', marginTop: '4px' }}>• 1 gram : 220 bath</div>
-            <div style={{ fontSize: '12px', marginLeft: '6px' }}>• 15 grams : 200 bath</div>
-            <div style={{ fontSize: '12px', marginLeft: '6px' }}>• 30 grams : 180 bath</div>
+            <div style={{ fontSize: '12px', marginLeft: '6px', marginTop: '4px' }}>• 1 gram : 180 bath</div>
+            <div style={{ fontSize: '12px', marginLeft: '6px' }}>• 15 grams : 150 bath</div>
+            <div style={{ fontSize: '12px', marginLeft: '6px' }}>• 30 grams : 120 bath</div>
           </div>
         </div>
         <div style={{ marginTop: '28px' }}>
@@ -121,9 +121,9 @@ function App() {
             <div style={{ fontSize: '12px', marginLeft: '8px' }}>bleeder: Flavour Chasers</div>
             <div style={{ fontSize: '12px', marginLeft: '8px' }}>family: Indica Dominant (80%) </div>
             <div></div>
-            <div style={{ fontSize: '12px', marginLeft: '6px', marginTop: '4px' }}>• 1 gram : 150 bath</div>
-            <div style={{ fontSize: '12px', marginLeft: '6px' }}>• 15 grams : 120 bath</div>
-            <div style={{ fontSize: '12px', marginLeft: '6px' }}>• 30 grams : 110 bath</div>
+            <div style={{ fontSize: '12px', marginLeft: '6px', marginTop: '4px' }}>• 1 gram : 180 bath</div>
+            <div style={{ fontSize: '12px', marginLeft: '6px' }}>• 15 grams : 150 bath</div>
+            <div style={{ fontSize: '12px', marginLeft: '6px' }}>• 30 grams : 120 bath</div>
           </div>
         </div>
         <div style={{ marginTop: '28px', paddingBottom: '28px' }}>
