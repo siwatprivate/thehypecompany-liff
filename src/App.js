@@ -1,24 +1,41 @@
 import logo from './logo.svg';
 import './App.css';
 
-import { Container } from "@mui/material";
+import { Container, Typography } from "@mui/material";
+
+import Stankhouse from './static/cannabis-stank-house.JPG'
+import Ultraviolet from './static/cannabis-ultra-violet.JPG'
+import NorternLight from './static/cannabis-nortern-light.JPG'
+import LemonBerryCandy from './static/cannabis-lemon-berry-candy.JPG'
+import DreamFactory from './static/cannabis-dream-factory.JPG'
+import DoSiDos from './static/cannabis-do-si-dos.JPG'
+import OGKush from './static/cannabis-og-kush.JPG'
 
 function App() {
+  const imageLoop = [
+    { imgUrl: Stankhouse, alt: "Stankhouse" },
+  ];
   return (
-    <div>
-      <div className="App">
+    <div className="App">
+      <Container
+        style={{
+          width: "100%",
+          minHeight: "100vh",
+          paddingLeft: "0px",
+          paddingRight: "0px",
+          backgroundColor: '#282c34'
+        }}
+      >
         <Container
           maxWidth="sm"
           style={{
-            width: "100%",
-            minHeight: "100vh",
             paddingLeft: "0px",
             paddingRight: "0px",
             backgroundColor: '#282c34'
           }}
         >
           <div style={{ color: '#ffffff', paddingTop: '10px', paddingBottom: '10px' }}>
-            <div style={{ fontWeight: 'bold', fontSize: '28px' }}>MENU</div>
+            <h3 style={{ fontWeight: 'bold', fontSize: '28px' }}>MENU</h3>
           </div>
           <div>
             <img
@@ -27,10 +44,8 @@ function App() {
               alt="Stankhouse"
             />
             <div style={{ marginTop: "20px", textAlign: 'left', color: '#ffffff', paddingLeft: '8px', paddingRight: '8px' }}>
-              <div style={{ fontWeight: 'bold', fontSize: '12px' }}>Stankhouse</div>
-              <div style={{ fontSize: '12px', marginLeft: '8px' }}>bleeder: Exotic Genetic</div>
-              <div style={{ fontSize: '12px', marginLeft: '8px' }}>family: 70 sativa / 30 Indica</div>
-              <div></div>
+              <h1 style={{ fontWeight: 'bold', fontSize: '12px' }}>Stankhouse</h1>
+              <h2 style={{ fontSize: '11px', marginLeft: '8px' }}>Bleeder: Exotic Genetic<br />Family: 70 sativa / 30 Indica</h2>
               <div style={{ fontSize: '12px', marginLeft: '6px', marginTop: '4px' }}>• 1 gram : 220 bath</div>
               <div style={{ fontSize: '12px', marginLeft: '6px' }}>• 15 grams : 200 bath</div>
               <div style={{ fontSize: '12px', marginLeft: '6px' }}>• 30 grams : 180 bath</div>
@@ -43,9 +58,8 @@ function App() {
               alt="Ultra violet"
             />
             <div style={{ marginTop: "20px", textAlign: 'left', color: '#ffffff', paddingLeft: '8px', paddingRight: '8px' }}>
-              <div style={{ fontWeight: 'bold', fontSize: '12px' }}>Ultra violet</div>
-              <div style={{ fontSize: '12px', marginLeft: '8px' }}>bleeder: Grower's choice</div>
-              <div style={{ fontSize: '12px', marginLeft: '8px' }}>family: 20% sativa / 80% indica</div>
+              <h1 style={{ fontWeight: 'bold', fontSize: '12px' }}>Ultra violet</h1>
+              <h2 style={{ fontSize: '11px', marginLeft: '8px' }}>Bleeder: Grower's choice<br />Family: 20% sativa / 80% indica</h2>
               <div></div>
               <div style={{ fontSize: '12px', marginLeft: '6px', marginTop: '4px' }}>• 1 gram : 220 bath</div>
               <div style={{ fontSize: '12px', marginLeft: '6px' }}>• 15 grams : 200 bath</div>
@@ -59,9 +73,8 @@ function App() {
               alt="Nortern Light"
             />
             <div style={{ marginTop: "20px", textAlign: 'left', color: '#ffffff', paddingLeft: '8px', paddingRight: '8px' }}>
-              <div style={{ fontWeight: 'bold', fontSize: '12px' }}>Nortern Light</div>
-              <div style={{ fontSize: '12px', marginLeft: '8px' }}>bleeder: Sensi Seeds</div>
-              <div style={{ fontSize: '12px', marginLeft: '8px' }}>family: 10% sativa / 90% indica</div>
+              <h1 style={{ fontWeight: 'bold', fontSize: '12px' }}>Nortern Light</h1>
+              <h2 style={{ fontSize: '11px', marginLeft: '8px' }}>Bleeder: Sensi Seeds<br />Family: 10% sativa / 90% indica</h2>
               <div></div>
               <div style={{ fontSize: '12px', marginLeft: '6px', marginTop: '4px' }}>• 1 gram : 180 bath</div>
               <div style={{ fontSize: '12px', marginLeft: '6px' }}>• 15 grams : 150 bath</div>
@@ -75,9 +88,8 @@ function App() {
               alt="Lemon Berry Candy"
             />
             <div style={{ marginTop: "20px", textAlign: 'left', color: '#ffffff', paddingLeft: '8px', paddingRight: '8px' }}>
-              <div style={{ fontWeight: 'bold', fontSize: '12px' }}>Lemon Berry Candy</div>
-              <div style={{ fontSize: '12px', marginLeft: '8px' }}>bleeder: Ethos genetic</div>
-              <div style={{ fontSize: '12px', marginLeft: '8px' }}>family: Sativa dominant </div>
+              <h1 style={{ fontWeight: 'bold', fontSize: '12px' }}>Lemon Berry Candy</h1>
+              <h2 style={{ fontSize: '11px', marginLeft: '8px' }}>Bleeder: Ethos genetic<br />Family: Sativa dominant</h2>
               <div></div>
               <div style={{ fontSize: '12px', marginLeft: '6px', marginTop: '4px' }}>• 1 gram : 250 bath</div>
               <div style={{ fontSize: '12px', marginLeft: '6px' }}>• 15 grams : 230 bath</div>
@@ -91,9 +103,8 @@ function App() {
               alt="Dream factory"
             />
             <div style={{ marginTop: "20px", textAlign: 'left', color: '#ffffff', paddingLeft: '8px', paddingRight: '8px' }}>
-              <div style={{ fontWeight: 'bold', fontSize: '12px' }}>Dream factory</div>
-              <div style={{ fontSize: '12px', marginLeft: '8px' }}>bleeder: Exotic genetic</div>
-              <div style={{ fontSize: '12px', marginLeft: '8px' }}>family:  60 Sativa / 40 Indica </div>
+              <h1 style={{ fontWeight: 'bold', fontSize: '12px' }}>Dream factory</h1>
+              <h2 style={{ fontSize: '11px', marginLeft: '8px' }}>Bleeder: Exotic genetic<br />Family:  60 Sativa / 40 Indica</h2>
               <div></div>
               <div style={{ fontSize: '12px', marginLeft: '6px', marginTop: '4px' }}>• 1 gram : 250 bath</div>
               <div style={{ fontSize: '12px', marginLeft: '6px' }}>• 15 grams : 230 bath</div>
@@ -107,9 +118,8 @@ function App() {
               alt="Do-si-dos"
             />
             <div style={{ marginTop: "20px", textAlign: 'left', color: '#ffffff', paddingLeft: '8px', paddingRight: '8px' }}>
-              <div style={{ fontWeight: 'bold', fontSize: '12px' }}>Do-Si-Dos</div>
-              <div style={{ fontSize: '12px', marginLeft: '8px' }}>bleeder: Flavour Chasers</div>
-              <div style={{ fontSize: '12px', marginLeft: '8px' }}>family: Indica Dominant (80%) </div>
+              <h1 style={{ fontWeight: 'bold', fontSize: '12px' }}>Do-Si-Dos</h1>
+              <h2 style={{ fontSize: '11px', marginLeft: '8px' }}>bleeder: Flavour Chasers<br />family: Indica Dominant (80%) </h2>
               <div></div>
               <div style={{ fontSize: '12px', marginLeft: '6px', marginTop: '4px' }}>• 1 gram : 180 bath</div>
               <div style={{ fontSize: '12px', marginLeft: '6px' }}>• 15 grams : 150 bath</div>
@@ -123,9 +133,8 @@ function App() {
               alt="OG-Kush"
             />
             <div style={{ marginTop: "20px", textAlign: 'left', color: '#ffffff', paddingLeft: '8px', paddingRight: '8px' }}>
-              <div style={{ fontWeight: 'bold', fontSize: '12px' }}>OG Kush</div>
-              <div style={{ fontSize: '12px', marginLeft: '8px' }}>bleeder: Grower's choice</div>
-              <div style={{ fontSize: '12px', marginLeft: '8px' }}>family: 80% indica 20% sativa </div>
+              <h1 style={{ fontWeight: 'bold', fontSize: '12px' }}>OG Kush</h1>
+              <h2 style={{ fontSize: '12px', marginLeft: '8px' }}>Bleeder: Grower's choice<br />Family: 80% indica 20% sativa</h2>
               <div></div>
               <div style={{ fontSize: '12px', marginLeft: '6px', marginTop: '4px' }}>• 1 gram : 220 bath</div>
               <div style={{ fontSize: '12px', marginLeft: '6px' }}>• 15 grams : 200 bath</div>
@@ -133,7 +142,7 @@ function App() {
             </div>
           </div>
         </Container>
-      </div>
+      </Container>
     </div>
   );
 }
